@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Menu";
+}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+
+            @foreach (var i in ViewBag.Products)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <form method="post">
+                            <input name="id" style="display:none" value="@i.id" />
+                            <img class="card-img-top" alt="Thumbnail [100%x250]" style="height: 225px; width: 100%; display: block;" src="/@i.picture" data-holder-rendered="true">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <b>@i.name</b>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">CPU: @i.CPU</li>
+                                        <li class="list-group-item">Видеокарта: @i.videoCard</li>
+                                        <li class="list-group-item">RAM: @i.RAM</li>
+                                        <li class="list-group-item">HDD: @i.HDD</li>
+                                        <li class="list-group-item">SSD: @i.SSD</li>
+                                        <li class="list-group-item">Корпус: @i.housing</li>
+                                        <li class="list-group-item">Диагональ экрана: @i.diagonal</li>
+                                    </ul>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button name="buy" type="submit" formaction="~/Home/Buy" class="btn btn-sm btn-outline-secondary">Купить</button>
+                                    </div>
+                                    <small class="text-muted">@i.price</small>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+    </div>
+</div>

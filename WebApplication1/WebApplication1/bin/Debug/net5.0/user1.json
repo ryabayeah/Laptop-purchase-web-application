@@ -1,0 +1,77 @@
+{
+	"ModelProduct": [ 
+			{
+				"id":0,
+				"picture":  "huawei.png", 
+				"name": "14 Ультрабук Huawei MateBook D 14 NblL-WDQ9 серый" ,
+				"brand": "Huawei",
+				"CPU": "Ryzen 5",
+				"videoCard": "Radeon Graphics",
+				"RAM": "8 ГБ",
+				"HDD": "нет",
+				"SSD": "512 ГБ",
+				"housing": "металл",
+				"diagonal" : "14'",
+				"price": "59 999 ₽"
+			},
+			{
+				"id":1,
+				"picture":  "Apple1.jpg", 
+				"name": "13.3 Ноутбук Apple MacBook Air Z12A0008Q золотистый" ,
+				"brand": "Apple",
+				"CPU": "M1",
+				"videoCard": "M1 7-core",
+				"RAM": "16 ГБ",
+				"HDD": "нет",
+				"SSD": "256 ГБ",
+				"housing": "металл",
+				"diagonal" : "13.3'",
+				"price": "103 499 ₽"
+			},
+			{
+				"id":2,
+				"picture":  "Acer1.jpg", 
+				"name": "Ноутбук игровой HP Pavilion Gaming 17-cd1023ur 20D18EA" ,
+				"brand": "HP",
+				"CPU": "Intel Core i5 10300H 2.5 ГГц",
+				"videoCard": "GeForce GTX 1650 4GB",
+				"RAM": "16 ГБ",
+				"HDD": "нет",
+				"SSD": "512 ГБ",
+				"housing": "пластик/ алюминий",
+				"diagonal" : "17.3'",
+				"price": "74 990 ₽"
+			}
+			,
+			{
+				"id":3,
+				"picture":  "Acer2.jpg", 
+				"name": "Ноутбук игровой Acer Nitro 5 AN515-43-R25S NH.Q6ZER.011" ,
+				"brand": "Acer",
+				"CPU": "Intel Core i5 10300H 2.5 ГГц",
+				"videoCard": "GeForce GTX 1650 4GB",
+				"RAM": "16 ГБ",
+				"HDD": "1 ТБ",
+				"SSD": "512 ГБ",
+				"housing": "пластик",
+				"diagonal" : "15.6'",
+				"price": "61 990 ₽"
+			}
+			,
+			{
+				"id":4,
+				"picture":  "Asus1.jpg", 
+				"name": "Ноутбук ASUS R429MA-EK471T" ,
+				"brand": "Asus",
+				"CPU": "Intel Pentium Silver N5030 1.1 ГГц",
+				"videoCard": "Intel UHD Graphics 605",
+				"RAM": "4 ГБ",
+				"HDD": "нет",
+				"SSD": "256 ГБ",
+				"housing": "пластик",
+				"diagonal" : "14'",
+				"price": "34 990 ₽"
+			}
+
+		]
+}
